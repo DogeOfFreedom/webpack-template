@@ -6,5 +6,8 @@ module.exports = merge(common, {
     devServer: {
         static: "./src"
     },
+    watchOptions: {
+        poll: 500
+    },
     devtool: "inline-source-map"
 })
